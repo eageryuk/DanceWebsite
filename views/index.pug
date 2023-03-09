@@ -1,0 +1,21 @@
+extends base.pug
+
+block scripts 
+  script(src="../static/index.js") 
+ 
+block style 
+  style 
+    include ../static/style.css
+
+block content 
+    section#introSection 
+        | Welcome to the intro section  
+    section#sponsorSection 
+      div.para 
+        h3 Anurag Pakhrin
+      div.para
+        h3 Urag Pakhrin
+      div.para
+        h3 TB Pakhrin
+  
+    
